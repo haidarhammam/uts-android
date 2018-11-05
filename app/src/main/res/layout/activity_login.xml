@@ -8,13 +8,16 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     android:layout_margin="10dp"
-    tools:context=".ActivityLogin">
+    android:background="@color/black"
+    tools:context=".LoginActivity">
 
     <TextView
         android:id="@+id/tvUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:text="Selamat Datang, "
+        android:textColor="@color/white"
         android:textSize="20sp"/>
 
     <ImageView
@@ -25,14 +28,14 @@
 
     <Button
         android:id="@+id/buttonLogout"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:onClick="logout"
         android:text="Logout" />
 
     <Button
         android:id="@+id/buttonDatabase"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:onClick="database"
         android:text="Database" />
